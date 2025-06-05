@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 :root {
   /* Product */
@@ -23,6 +25,7 @@
   --text-sm: 12px/170% var(--font-family);
 }
 body {
+  color: var(--txt-secondar-color);
   font: var(--text);
   font-family: var(--font-family);
   background-color: var(--background-color);

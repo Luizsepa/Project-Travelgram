@@ -1,0 +1,40 @@
+#profile {
+  display: flex;
+  padding-block: 32px;
+}
+#profile:first-child img {
+  margin-right: 32px;
+  gap: 8px;
+}
+#dados {
+  /* border: solid; */
+  max-width: 400px;
+  height: 176px;
+}
+#dados h1 {
+  font: var(--text-lg);
+  margin-top: 0;
+  color: var(--txt-primar-color);
+  margin-bottom: 8px;
+}
+#dados p {
+  color: var(--txt-secondar-color);
+  font-size: var(--text-md);
+}
+#bio {
+  width: 280px;
+  height: min-content;
+  /* border: solid; */
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  list-style: none;
+  justify-content: space-evenly;
+  align-self: center;
+}
+#bio li {
+  margin-bottom: 16px;
+  display: flex;
+  font: var(--text-md);
+  align-items: center;
+}
