@@ -6,6 +6,12 @@
   margin-right: 32px;
   gap: 8px;
 }
+#profile img:first-child(1) {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 #dados {
   /* border: solid; */
   max-width: 400px;
